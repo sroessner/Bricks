@@ -29,7 +29,8 @@ function drop(ev) {
 function dropcopy(ev) {
   var name=1;
   while (document.getElementById(name)!=null){name=name+1;};
-  ev.preventDefault();
+  ev.stopPropagation();
+  //ev.preventDefault();
   var data=ev.dataTransfer.getData("text/html");
   /* If you use DOM manipulation functions, their default behaviour it not to 
      copy but to alter and move elements. By appending a ".cloneNode(true)", 
