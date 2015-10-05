@@ -5,4 +5,4 @@
 #canvas .medibrick {border-radius:25px; width:450px; height:210px; padding:10px; background: #1c9099;}
 #canvas .megabrick {border-radius:25px; width:675px; height:210px; padding:10px; background: #016c59;}
 #sidebar { position: absolute; left: 0; top: 0; width: 15%; height: 100%; background-color: #bdc9e1;}
-#canvas { position: absolute; right: 0; top: 0; width: 85%; height: 100%; background-color: #f6eff7;}
+#canvas { position: absolute; right: 0; top: 0; width: 680px; height: 100%; background-color: #f6eff7;}
