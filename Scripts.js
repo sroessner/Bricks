@@ -56,7 +56,7 @@ function dropeitem(ev) {
      you will not move the original element, but create a copy. */
   var nodeCopy = document.getElementById(data).cloneNode(true);
   ek=document.getElementById(data);
-  alert("from "+ek.className;
+  alert("from "+ek.className);
   alert("to "+el.className);
 
   nodeCopy.id = name; /* We cannot use the same ID */
