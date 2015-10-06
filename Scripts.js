@@ -54,7 +54,8 @@ function dropeitem(ev) {
      copy but to alter and move elements. By appending a ".cloneNode(true)", 
      you will not move the original element, but create a copy. */
   var nodeCopy = document.getElementById(data).cloneNode(true);
-  if(document.getElementById(data).id=="minibrick" || document.getElementById(data).id=="medibrick" || document.getElementById(data).id=="megabrick"){el=el.parentNode;}
+  //if(el.id=="minibrick" || el.id=="medibrick" || el.id=="megabrick"){el=el.parentNode;}
+  alert(el.id);
   nodeCopy.id = name; /* We cannot use the same ID */
   el.appendChild(nodeCopy);
 }
