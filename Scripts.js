@@ -26,7 +26,7 @@ function drop(ev) {
   ev.target.appendChild(document.getElementById(data));
 }
 
-function dropcopy(ev) {
+function dropbrick(ev) {
   var name=1;
   while (document.getElementById(name)!=null){name=name+1;};
   ev.stopPropagation();
