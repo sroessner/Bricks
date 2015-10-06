@@ -41,3 +41,19 @@ function dropbrick(ev) {
   nodeCopy.id = name; /* We cannot use the same ID */
   el.appendChild(nodeCopy);
 }
+
+function dropeitem(ev) {
+  var name=1;
+  while (document.getElementById(name)!=null){name=name+1;};
+  ev.stopPropagation();
+  el=ev.target;
+  //ev.preventDefault();
+  var data=ev.dataTransfer.getData("text/html");
+  /* If you use DOM manipulation functions, their default behaviour it not to 
+     copy but to alter and move elements. By appending a ".cloneNode(true)", 
+     you will not move the original element, but create a copy. */
+  if (el.id/el.id!=NaN{el=el.parentNode;}
+  var nodeCopy = document.getElementById(data).cloneNode(true);
+  nodeCopy.id = name; /* We cannot use the same ID */
+  el.appendChild(nodeCopy);
+}
