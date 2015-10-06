@@ -7,5 +7,5 @@
 #sidebar {position: absolute; left: 0; top: 0; width: 15%; height: 100%; background-color: #bdc9e1;}
 #canvas {position: absolute; right: 0; top: 0; width: 85%; height: 100%; background-color: #f6eff7;}
 .eitem {border-radius:15px; margin:10px; width:200px; height:20; padding:10px; background: #f6eff7; display: block;}
-#left {left: 0; width: 50%; height: 100%; border-radius:25px; background: #0000ff;}
-#right {right: 0; width: 50%; height: 100%; border-radius:25px; background: #0000ff;}
+#left {left: 0; top:0; width: 50%; height: 100%; border-radius:25px; background: #0000ff;}
+#right {right: 0; top:0; width: 50%; height: 100%; border-radius:25px; background: #0000ff;}
