@@ -1,11 +1,11 @@
-#sidebar .minibrick {border-radius:25px; margin:10px; width:75px; height:70px; background: #67a9cf; display: inline-block;}
-#sidebar .medibrick {border-radius:25px; margin:10px; width:150px; height:70px; background: #1c9099; display: inline-block;}
-#sidebar .megabrick {border-radius:25px; margin:10px; width:245px; height:70px; background: #016c59; display: inline-block;}
-#canvas .minibrick {border-radius:25px; margin:10px; width:225px; height:210px; background: #67a9cf; display: inline-block;}
-#canvas .medibrick {border-radius:25px; margin:10px; width:450px; height:210px; background: #1c9099; display: inline-block;}
-#canvas .megabrick {border-radius:25px; margin:10px; width:695px; height:210px; background: #016c59; display: inline-block;}
-#sidebar {position: absolute; left: 0; top: 0; width: 15%; height: 100%; background-color: #bdc9e1;}
-#canvas {position: absolute; right: 0; top: 0; width: 85%; height: 100%; background-color: #f6eff7;}
-.eitem {border-radius:15px; margin:10px; width:200px; height:20; padding:10px; background: #f6eff7; float: left;}
+#sidebar .minibrick {clear: left; border-radius:25px; margin:10px; width:75px; height:70px; background: #67a9cf; display: inline-block;}
+#sidebar .medibrick {clear: left; border-radius:25px; margin:10px; width:150px; height:70px; background: #1c9099; display: inline-block;}
+#sidebar .megabrick {clear: left; border-radius:25px; margin:10px; width:245px; height:70px; background: #016c59; display: inline-block;}
+#canvas .minibrick {clear: left; border-radius:25px; margin:10px; width:225px; height:210px; background: #67a9cf; display: inline-block;}
+#canvas .medibrick {clear: left; border-radius:25px; margin:10px; width:450px; height:210px; background: #1c9099; display: inline-block;}
+#canvas .megabrick {clear: left; border-radius:25px; margin:10px; width:695px; height:210px; background: #016c59; display: inline-block;}
+#sidebar {clear: left; position: absolute; left: 0; top: 0; width: 15%; height: 100%; background-color: #bdc9e1;}
+#canvas {clear: left; position: absolute; right: 0; top: 0; width: 85%; height: 100%; background-color: #f6eff7;}
+.eitem {clear: left; border-radius:15px; margin:10px; width:200px; height:20; padding:10px; background: #f6eff7; float: left;}
 #left {left: 0; top:0; width: 40%; height: 80%; border-radius:25px; background: #0000ff;}
 #right {right: 0; top:0; width: 40%; height: 80%; border-radius:25px; background: #0000ff;}
