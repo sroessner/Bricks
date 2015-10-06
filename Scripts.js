@@ -35,7 +35,7 @@ function dropcopy(ev) {
   /* If you use DOM manipulation functions, their default behaviour it not to 
      copy but to alter and move elements. By appending a ".cloneNode(true)", 
      you will not move the original element, but create a copy. */
-  if (ev.target.id!="canvas"){break}
+  if (ev.target.id!="canvas"){break;}
   var nodeCopy = document.getElementById(data).cloneNode(true);
   nodeCopy.id = name; /* We cannot use the same ID */
   ev.target.appendChild(nodeCopy);
