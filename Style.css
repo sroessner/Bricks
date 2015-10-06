@@ -6,4 +6,4 @@
 #canvas .megabrick {border-radius:25px; margin:10px; width:695px; height:210px; padding:10px; background: #016c59; display: inline-block;}
 #sidebar { position: absolute; left: 0; top: 0; width: 15%; height: 100%; background-color: #bdc9e1;}
 #canvas { position: absolute; right: 0; top: 0; width: 85%; height: 100%; background-color: #f6eff7;}
-.eitem {border-radius:15px; margin:10px; width:245px; height:20; padding:10px; background: #0000ff; display: inline-block;}
+.eitem {border-radius:15px; margin:10px; width:200px; height:20; padding:10px; background: #f6eff7; display: block;}
