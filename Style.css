@@ -1,8 +1,8 @@
-#sidebar .minibrick {border-radius:25px; border-color: #0000ff; width:75px; height:70px; padding:10px; background: #67a9cf; display: inline-block;}
-#sidebar .medibrick {border-radius:25px; border-color: #0000ff; width:150px; height:70px; padding:10px; background: #1c9099; display: inline-block;}
-#sidebar .megabrick {border-radius:25px; border-color: #0000ff; width:225px; height:70px; padding:10px; background: #016c59; display: inline-block;}
-#canvas .minibrick {border-radius:25px; border-color: #0000ff; width:225px; height:210px; padding:10px; background: #67a9cf; display: inline-block;}
-#canvas .medibrick {border-radius:25px; border-color: #0000ff; width:450px; height:210px; padding:10px; background: #1c9099; display: inline-block;}
-#canvas .megabrick {border-radius:25px; border-color: #0000ff; width:675px; height:210px; padding:10px; background: #016c59; display: inline-block;}
+#sidebar .minibrick {border-style: solid; border-radius:25px; border-color: #ffffff; width:75px; height:70px; padding:10px; background: #67a9cf; display: inline-block;}
+#sidebar .medibrick {border-style: solid; border-radius:25px; border-color: #ffffff; width:150px; height:70px; padding:10px; background: #1c9099; display: inline-block;}
+#sidebar .megabrick {border-style: solid; border-radius:25px; border-color: #ffffff; width:225px; height:70px; padding:10px; background: #016c59; display: inline-block;}
+#canvas .minibrick {border-style: solid; border-radius:25px; border-color: #ffffff; width:225px; height:210px; padding:10px; background: #67a9cf; display: inline-block;}
+#canvas .medibrick {border-style: solid; border-radius:25px; border-color: #ffffff; width:450px; height:210px; padding:10px; background: #1c9099; display: inline-block;}
+#canvas .megabrick {border-style: solid; border-radius:25px; border-color: #ffffff; width:675px; height:210px; padding:10px; background: #016c59; display: inline-block;}
 #sidebar { position: absolute; left: 0; top: 0; width: 15%; height: 100%; background-color: #bdc9e1;}
 #canvas { position: absolute; right: 0; top: 0; width: 85%; height: 100%; background-color: #f6eff7;}
