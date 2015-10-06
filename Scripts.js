@@ -37,7 +37,7 @@ function dropbrick(ev) {
      copy but to alter and move elements. By appending a ".cloneNode(true)", 
      you will not move the original element, but create a copy. */
   if (el.id!="canvas"){el=el.parentNode;}
-  alert( document.getElementById(data).class);
+  alert( document.getElementById(data).id);
   var nodeCopy = document.getElementById(data).cloneNode(true);
   nodeCopy.id = name; /* We cannot use the same ID */
   el.appendChild(nodeCopy);
