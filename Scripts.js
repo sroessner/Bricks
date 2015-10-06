@@ -48,13 +48,14 @@ function dropeitem(ev) {
   while (document.getElementById(name)!=null){name="e"+name+1;};
   ev.stopPropagation();
   el=ev.target;
-  ek=document.getElementById(data);
+  
   //ev.preventDefault();
   var data=ev.dataTransfer.getData("text/html");
   /* If you use DOM manipulation functions, their default behaviour it not to 
      copy but to alter and move elements. By appending a ".cloneNode(true)", 
      you will not move the original element, but create a copy. */
   var nodeCopy = document.getElementById(data).cloneNode(true);
+  ek=document.getElementById(data);
   alert("from "+ek.id);
   alert("to "+el.id);
 
