@@ -4,8 +4,8 @@
 #canvas .minibrick {border-radius:25px; margin:10px; width:225px; height:210px; background: #67a9cf; display: inline-block; clear: left; }
 #canvas .medibrick {border-radius:25px; margin:10px; width:450px; height:210px; background: #1c9099; display: inline-block; clear: left; }
 #canvas .megabrick {border-radius:25px; margin:10px; width:695px; height:210px; background: #016c59; display: inline-block; clear: left; }
-#sidebar {position: absolute; left: 0; top: 0; width: 260px; height: 100%; background-color: #bdc9e1;}
-#canvas {position: absolute; right: 0; top: 0; width: 50%; height: 100%; background-color: #f6eff7;}
+#sidebar {float: left; width: 260px; height: 80%; background-color: #bdc9e1;}
+#canvas {width: 100%; height: 100%; background-color: #f6eff7;}
 .eitem {border-radius:15px; margin:10px; width:200px; height:20; padding:10px; background: #f6eff7; float: left;}
 #left {left: 0; top:0; width: 40%; height: 80%; border-radius:25px; background: #0000ff;}
 #right {right: 0; top:0; width: 40%; height: 80%; border-radius:25px; background: #0000ff;}
