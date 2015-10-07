@@ -6,5 +6,5 @@
 #canvas .megabrick {border-radius: 25px; margin: 1%; width: 65.5%; height: 24%; background: #016c59; display: inline-block; clear: left; }
 #sidebar {position: absolute; left: 0; top: 0; width: 25%; height: 100%; background-color: #bdc9e1;}
 #canvas {position: absolute; right: 0; top: 0; width: 75%; height: 100%; background-color: #f6eff7;}
-#sidebar .eitem {border-radius:15px; margin:5%; width:80%; height:4%; background: #f6eff7; float: left;}
-#canvas .eitem {border-radius:15px; margin:10px; width:30%; height:30%; background: #0000ff; float: left;}
+#sidebar .eitem {border-radius:10px; margin:5%; width:80%; height:4%; background: #f6eff7; float: left;}
+#canvas .eitem {border-radius:10px; margin:1%; width:28%; height:28%; background: #0000ff; float: left;}
