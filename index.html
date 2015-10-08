@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <html>
 <head>
-<link rel="stylesheet" type="text/css" href="Style.css" media="screen" />
+<link id="CurrentStyle" rel="stylesheet" type="text/css" href="Ocean.css" media="screen" />
 <script src="Scripts.js"></script>
 </head>
 <body>
@@ -9,7 +9,9 @@
 <div id="canvas" ondrop="dropbrick(event)" ondragover="allowDrop(event)">
 </div>
 <div id="sidebar" ondragover="allowDrop(event)">
-
+<svg width="15" height="75" onclick="ColorChanger('Ocean.css')"><rect fill="rgb(246,239,247)" width="15" height="15" y="0"></rect><rect fill="rgb(189,201,225)" width="15" height="15" y="15"></rect><rect fill="rgb(103,169,207)" width="15" height="15" y="30"></rect><rect fill="rgb(28,144,153)" width="15" height="15" y="45"></rect><rect fill="rgb(1,108,89)" width="15" height="15" y="60"></rect></svg>
+<svg width="15" height="75" onclick="ColorChanger('Purple.css')"><rect fill="rgb(242,240,247)" width="15" height="15" y="0"></rect><rect fill="rgb(203,201,226)" width="15" height="15" y="15"></rect><rect fill="rgb(158,154,200)" width="15" height="15" y="30"></rect><rect fill="rgb(117,107,177)" width="15" height="15" y="45"></rect><rect fill="rgb(84,39,143)" width="15" height="15" y="60"></rect></svg>
+<svg width="15" height="75" onclick="ColorChanger('Rose.css')"><rect fill="rgb(254,229,217)" width="15" height="15" y="0"></rect><rect fill="rgb(252,174,145)" width="15" height="15" y="15"></rect><rect fill="rgb(251,106,74)" width="15" height="15" y="30"></rect><rect fill="rgb(222,45,38)" width="15" height="15" y="45"></rect><rect fill="rgb(165,15,21)" width="15" height="15" y="60"></rect></svg>
 <br>
 <div id="minibrick" class="minibrick" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"><div class="container"><div class="repeat">x<input type="number" value="1"></div></div></div>
 <div id="medibrick" class="medibrick" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"><div class="container"><div class="repeat">x<input type="number" value="1"></div></div></div>

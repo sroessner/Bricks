@@ -60,3 +60,5 @@ function dropeitem(ev) {
   nodeCopy.id = name; /* We cannot use the same ID */
   el.appendChild(nodeCopy);
 }
+
+function ColorChanger(newSchema){document.getElementById('CurrentStyle').href=newSchema;}
