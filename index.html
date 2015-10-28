@@ -10,13 +10,11 @@
 <script src="js/Scripts.js"></script>
 </head>
 <body>
-
-<div id="canvas" ondrop="dropbrick(event)" ondragover="allowDrop(event)">
-</div>
-<div id="sidebar" ondragover="allowDrop(event)">
+<div id="header">
+<div id="namelogo">FIT BRICKS</div>
 <nav id="menu" class="menu">
 	<div class="morph-shape" data-morph-open="M260,500H0c0,0,8-120,8-250C8,110,0,0,0,0h260c0,0-8,110-8,250C252,380,260,500,260,500z">
-		<svg width="100%" height="100%" viewBox="0 0 260 500" preserveAspectRatio="none">
+		<svg width="500px" height="100%" viewBox="0 0 260 500" preserveAspectRatio="none">
 		<path fill="none" d="M260,500H0c0,0,0-120,0-250C0,110,0,0,0,0h260c0,0,0,110,0,250C260,380,260,500,260,500z"/>
 		</svg>
 	</div>
@@ -45,7 +43,10 @@
 		</table>
 	</div>
 </nav>
-
+</div>
+<div id="canvas" ondrop="dropbrick(event)" ondragover="allowDrop(event)">
+</div>
+<div id="sidebar" ondragover="allowDrop(event)">
 <div id="minibrick" class="minibrick" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"><div class="container"><div class="repeat">X<input type="number" value="1"></div></div></div>
 <div id="medibrick" class="medibrick" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"><div class="container"><div class="repeat">X<input type="number" value="1"></div></div></div>
 <div id="megabrick" class="megabrick" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"><div class="container"><div class="repeat">X<input type="number" value="1"></div></div></div>
@@ -54,22 +55,58 @@
   <div class="searchdiv"><input class="search" placeholder="Search" /></div>
 
 
-  <ul class="list">
-    <li>
-      <div id="Burpees" class="eitem" draggable="true" ondragstart="drag(event)">Burpees</div>
-    </li>
-    <li>
-      <div id="KettleBellSwings" class="eitem" draggable="true" ondragstart="drag(event)">Kettle Bell Swings</div>
-    </li>
-    <li>
-      <div id="TRXKneesToElbows" class="eitem" draggable="true" ondragstart="drag(event)">TRX Knees-to-Elbows</div>
+<ul class="list">
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Alternating-Swing">Alternating Swing<div class="ecat">kettle bell, cardio</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Row-body-weight">Row body-weight<div class="ecat">strength, body weight, arm</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Bicep-Curl">Bicep Curl<div class="ecat">kettle bell, dumbbell, strength, arm</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Bent-Over-Row">Bent-Over Row<div class="ecat">kettle bell, dumbbell, strength, core</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Lunge-Row">Lunge Row<div class="ecat">kettle bell, dumbbell, strength, core</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Shoulder-Press">Shoulder Press<div class="ecat">kettle bell, dumbbell, strength, arm</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Kneel-to-Stand">Kneel-to-Stand<div class="ecat">kettle bell, dumbbell, strength, arm</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Squat">Squat<div class="ecat">kettle bell, dumbbell, strength</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Crunch">Crunch<div class="ecat">core, body weight</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Pull-Over-Crunch">Pull-Over Crunch<div class="ecat">kettle bell, dumbbell, core</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Flutter-Kicks">Flutter Kicks<div class="ecat">core, body weight</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Around-the-World">Around the World<div class="ecat">kettle bell, dumbbell</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Burpees">Burpees<div class="ecat">body weight, cardio</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="High-Knees">High Knees<div class="ecat">body weight, cardio</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Side-Skaters">Side Skaters<div class="ecat">body weight, cardio, active stretch</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Fast-Feet-to-Floor">Fast-Feet-to-Floor<div class="ecat">body weight, cardio</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Tuck-Jumps">Tuck Jumps<div class="ecat">body weight, jump, cardio</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Mountain-Climbers">Mountain Climbers<div class="ecat">body weight, cardio</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Body-Row-TRX">Body Row TRX<div class="ecat">TRX, core</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Chest-Press-TRX">Chest Press TRX<div class="ecat">TRX, arms</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Bicep-Curl-TRX">Bicep Curl TRX<div class="ecat">TRX, arms</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Superman">Superman<div class="ecat">body weight, core</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Superman-BOSU">Superman BOSU<div class="ecat">bosu, core, body weight</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Single-Leg-Squat-TRX">Single-Leg Squat TRX<div class="ecat">TRX, leg, strength</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Curtsy-Lunge-TRX">Curtsy Lunge TRX<div class="ecat">TRX, leg, strength</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Balance-Squat">Balance Squat<div class="ecat">bosu, leg</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Side-Lunge-BOSU">Side Lunge BOSU<div class="ecat">bosu, leg, active stretch</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Single-Leg-Dead-Lift">Single Leg Dead Lift<div class="ecat">body weight, kettle bell, dumbbell, leg, strength</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Single-Leg-Dead-Lift-BOSU">Single Leg Dead Lift BOSU<div class="ecat">body weight, kettle bell, dumbbell, leg, strength, bosu</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Push-Up">Push-Up<div class="ecat">body weight, arm</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Push-Up-BOSU">Push-Up BOSU<div class="ecat">body weight, arm, bosu</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Power-Pull">Power Pull<div class="ecat">TRX, arms</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Knees-to-Elbows">Knees-to-Elbows<div class="ecat">TRX, core</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Squat-Press">Squat Press<div class="ecat">kettle bell, dumbbell, strength</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Windmill">Windmill<div class="ecat">kettle bell, dumbbell, core</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Lunge">Lunge<div class="ecat">leg, body weight</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Star-Jump">Star Jump<div class="ecat">body weight, cardio, jump, plyo</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Jumping-Jacks">Jumping Jacks<div class="ecat">body weight, cardio, jump, plyo</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Mountain-Climbers-TRX">Mountain Climbers TRX<div class="ecat">TRX, core, cardio</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Snatch">Snatch<div class="ecat">kettle bell, strength</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Turkish-Get-Up">Turkish Get-Up<div class="ecat">kettle bell, body weight</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Leg-Lifts">Leg Lifts<div class="ecat">core, body weight</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Russian-Twist">Russian Twist<div class="ecat">core, body weight, kettle bell, dumbbell</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Dead-Bug">Dead Bug<div class="ecat">core, body weight</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="In-and-Out">In and Out<div class="ecat">core, body weight</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="In-and-Out-BOSU">In and Out BOSU<div class="ecat">core, body weight, bosu</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Goblet-Squat">Goblet Squat<div class="ecat">kettle bell, dumbbell, strength, leg</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="Renegade-Row">Renegade Row<div class="ecat">body weight, core</div></div</li>
+<li><div class="eitem" draggable="true" ondragstart="drag(event)" ondrop="dropeitem(event)"  id="High-Pull">High Pull<div class="ecat">kettle bell, dumbbell, arm</div></div</li>
 
-    </li>
-    <li>
-      <div id="PlyoSquats" class="eitem" draggable="true" ondragstart="drag(event)">Plyometric Squats</div>
-
-    </li>
-  </ul>
+</ul>
 
 </div>
 
@@ -77,7 +114,7 @@
 </body>
 <script>
 var options = {
-  valueNames: [ 'eitem' ]
+  valueNames: [ 'eitem' ,'ecat']
 };
 var userList = new List('exercises', options);
 </script>
